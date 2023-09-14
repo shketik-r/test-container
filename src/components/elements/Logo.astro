@@ -1,0 +1,28 @@
+---
+import { Image } from 'astro:assets';
+import  logo from '../../images/logo/logo.svg';
+---
+
+<div class="logo-wrapper">
+  <!-- <img class="logo" src="public/images/logo/logo.svg" alt="logo"> -->
+  <Image  src={logo}  alt="logo"  width="200"  height="150" />
+  <p>СКЛАД ДЛЯ ВАС</p>
+</div>
+
+<style>
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+  }
+
+  .logo {
+    width: 4rem;
+    height: 4.8rem;
+  }
+
+  p {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+</style>

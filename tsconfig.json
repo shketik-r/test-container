@@ -1,0 +1,20 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@basic/*": [
+        "src/components/basic/*"
+      ],
+      "@elements/*": [
+        "src/components/elements/*"
+      ],
+      "@sections/*": [
+        "src/components/sections/*"
+      ],
+  
+    },
+  }
+}

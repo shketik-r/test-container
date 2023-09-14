@@ -1,0 +1,38 @@
+---
+import Header from "@sections/Header.astro";
+import Head from "@basic/Head.astro";
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ru">
+  <Head title={title} />
+  <body>
+    <!-- HEADER -->
+    <Header />
+
+    <!-- Main content -->
+    <main>
+      <slot />
+    </main>
+
+    <!-- FOOTER -->
+
+
+
+
+
+
+    <style is:global>
+      :root {
+      }
+
+      html {
+      }
+    </style>
+  </body>
+</html>

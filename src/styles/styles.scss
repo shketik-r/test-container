@@ -1,0 +1,54 @@
+@import "vars";
+@import "mixins";
+@import 'setting.scss';
+
+
+html {
+  font-size: calc(100vw / 1920 * 10);
+
+  @include breakpoint($cos-bp) {
+    font-size: calc(100vw / 1440 * 10);
+  }
+
+  @include breakpoint($xl-bp) {
+    font-size: calc(100vw / 768 * 10);
+  }
+
+  @include breakpoint($sm-bp) {
+    font-size: calc(100vw / 375 * 10);
+  }
+
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--black);
+}
+
+.container {
+  width: 168rem;
+  margin: 0 auto;
+
+  @include breakpoint($cos-bp) {
+   width: 120rem;
+  }
+
+  @include breakpoint($xl-bp) {
+   width: 95%;
+  }
+}
+
+.section-title {
+  font-size: 8rem;
+  line-height: 12rem;
+  text-transform: uppercase;
+}
+
+
+@import './sections/header.scss';
+@import './sections/rent.scss';
+@import './sections/storage.scss';
