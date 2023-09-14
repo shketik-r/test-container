@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import  rent from '../../images/image-rent.jpg';
+// import  rent from '../../../public/image-rent.jpg';
 ---
 
 <section class="section-rent">
@@ -13,10 +13,9 @@ import  rent from '../../images/image-rent.jpg';
 
 
   <div class="section-rent__wrapper">
-    <div class="section-rent__btn">
-      <a href="#" class="select-stock-button">Подобрать склад</a>
-    </div>
-    <Image  src={rent} alt='rent' />
+
+    <img src="/assets/image-rent.jpg" alt="A starry night sky.">
+    <!-- <Image  src={rent} alt='rent' /> -->
   </div>
 
 
