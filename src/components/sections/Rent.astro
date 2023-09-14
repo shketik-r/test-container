@@ -1,5 +1,6 @@
 ---
-
+import { Image } from 'astro:assets';
+import  logo from '../../images/image-rent.jpg';
 ---
 
 <section class="section-rent">
@@ -12,11 +13,7 @@
     <div class="section-rent__btn">
       <button>Подобрать склад</button>
     </div>
+    <Image   class="section-rent__img"  src={logo}  alt="logo" />
 
-    <img
-      class="section-rent__img"
-      src="images/image-rent.jpg"
-      alt="rent"
-    />
   </div>
 </section>
