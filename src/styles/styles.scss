@@ -41,6 +41,12 @@ html {
    width: 95%;
   }
 }
+.content{
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}
 
 .section-title {
   font-size: 8rem;
@@ -49,4 +55,20 @@ html {
 }
 
 
+
+/*------element------*/
+@import './element/form-contract.scss';
+
+
+/*------section------*/
 @import './sections/header.scss';
+@import './sections/rent.scss';
+@import './sections/storage.scss';
+@import './sections/about.scss';
+@import './sections/advantages.scss';
+@import './sections/contract.scss';
+@import './sections/work.scss';
+@import './sections/answers.scss';
+@import './sections/map.scss';
+
+@import './sections/footer.scss';

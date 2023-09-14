@@ -1,0 +1,41 @@
+.section-work {}
+
+.section-work__title {
+  margin-bottom: 6rem;
+}
+
+.section-work__wrapper {
+  display: flex;
+  gap: 3rem;
+ flex-wrap: wrap;
+}
+
+.section-work__elem {
+  width: 54rem;
+  border-bottom: 0.1rem solid var(--orange);
+}
+
+.section-work__elem-title {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+
+  p {
+    width: 6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+   color: var(--orange);
+  }
+
+ span {
+    width: 100%;
+    height: 0.1rem;
+     background: var(--orange);
+  }
+}
+
+.section-work__elem-subtitle {
+font-size:4rem;
+line-height: 6rem;
+padding: 5rem 0;
+}

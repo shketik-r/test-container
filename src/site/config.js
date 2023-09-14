@@ -5,6 +5,4 @@ const CONFIG = {
 
 CONFIG.images = CONFIG.base + '/images';
 
-
-
 export default CONFIG;

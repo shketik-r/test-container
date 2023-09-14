@@ -1,0 +1,32 @@
+---
+import { Image } from "astro:assets";
+
+interface Props {
+  weight: number;
+  square: string;
+  size: string;
+  capacity: string;
+  img: any;
+  alt: string;
+}
+
+const { weight, square, size, capacity, img, alt } = Astro.props;
+---
+
+<div class="section-storage__item">
+  <Image class="storage__item-img" src={img} alt={alt} />
+
+  <div class="storage__item-footer">
+    <h3 class="storage__item-title">{weight} футов</h3>
+    <div class="storage__item-subtitle">
+      <p>Площадь: {square}</p>
+      <p>Габариты: {size}</p>
+      <p>Объем: {capacity}</p>
+    </div>
+    <a href="#" class="storage__item-request">Оставить заявку
+      <div class="storage__item-arrow">
+        <svg><use href="#cardArrowIcon"></use></svg>
+      </div>
+    </a>
+  </div>
+</div>

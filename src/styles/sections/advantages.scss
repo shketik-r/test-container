@@ -1,0 +1,39 @@
+.section-advantages {}
+
+.section-advantages__title {
+  margin-bottom: 6rem;
+}
+
+.section-advantages__wrapper {
+  display: flex;
+}
+
+.section-advantages__item {
+  width: 84rem;
+
+  padding: 5rem 2rem;
+  border-radius: 5rem 5rem 0 0;
+  border: 0.1rem;
+  border-bottom: 0;
+
+  border-style: solid;
+  border-color: #CACACA;
+
+}
+
+.section-advantages__item-number {
+  font-size: 8rem;
+  line-height: 12rem;
+  color: var(--orange);
+  opacity: 0.5;
+}
+
+.section-advantages__item-title {
+  font-size: 4rem;
+  line-height: 6rem;
+}
+
+.section-advantages__item-subtitle {
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+}

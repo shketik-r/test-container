@@ -5,9 +5,17 @@
     "target": "ESNext",
     "baseUrl": ".",
     "paths": {
-      "@basic/*": ["src/components/basic/*"],
-      "@elements/*": ["src/components/elements/*"],
-      "@sections/*": ["src/components/sections/*"]
-    }
+      "@basic/*": [
+        "src/components/basic/*"
+      ],
+      "@elements/*": [
+        "src/components/elements/*"
+      ],
+      "@sections/*": [
+        "src/components/sections/*"
+      ],
+   
+  
+    },
   }
 }

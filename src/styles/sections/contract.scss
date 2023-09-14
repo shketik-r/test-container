@@ -1,0 +1,41 @@
+.section-contract {
+
+ background: #FF74000D;
+padding: 10rem 12rem;
+}
+
+
+.section-contract__wrapper{
+  display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap: 17.2rem;
+}
+.section-contract__description {
+  width: 68.2rem;
+}
+
+.section-contract__title {
+  margin-bottom: 1.5rem;
+}
+
+.section-rent__subtitle {
+
+  & p:first-child {
+    font-size: 2.6rem;
+    line-height: 3.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  & p:last-child {
+    font-size: 2rem;
+    line-height: 3rem
+  }
+
+  a {
+    font-size: 2rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    color: var(--orange);
+  }
+}

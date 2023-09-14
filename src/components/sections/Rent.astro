@@ -1,0 +1,23 @@
+---
+import { Image } from 'astro:assets';
+import  rent from '../../images/image-rent.jpg';
+---
+
+<section class="section-rent">
+  <div class="container">
+    <h1 class="section-title section-rent__title">Склад для вас</h1>
+    <p class="section-rent__subtitle">
+      Аренда склада для индивидуального хранения
+    </p>
+  </div>
+
+
+  <div class="section-rent__wrapper">
+    <div class="section-rent__btn">
+      <a href="#" class="select-stock-button">Подобрать склад</a>
+    </div>
+    <Image class="section-rent__img" src={rent} alt='rent' />
+  </div>
+
+
+</section>
